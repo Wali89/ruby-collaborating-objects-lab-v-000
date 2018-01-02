@@ -10,7 +10,7 @@ class MP3Importer
 
   def files
     list_of_files = Dir["#{@path}/**/*.mp3"]
-    binding.pry
+    #binding.pry
   end
 
 
