@@ -2,7 +2,7 @@ class Song
   attr_accessor :name
 
   def initialize(name)
-    @title = name
+    @name = name
   end
   def self.new_by_filename(filename)
     specs = filename.split(" - ")
