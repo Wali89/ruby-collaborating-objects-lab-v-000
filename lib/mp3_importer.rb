@@ -5,7 +5,7 @@ class MP3Importer
 
   def initialize(path)
     @path = path
-    list_of_files = Dir["glob/**/*.rb"](".mp3")
+    list_of_files = Dir["#{path}/**/*.mp3"]
   end
 
   def import(list)
