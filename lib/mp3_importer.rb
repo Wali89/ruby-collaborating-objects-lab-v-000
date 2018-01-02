@@ -11,7 +11,7 @@ class MP3Importer
   def files
     list_of_files_with_path = Dir["#{@path}/**/*.mp3"]
     list_of_files = list_of_files_with_path.map { |e| e.split("/")[4]  }
-    binding.pry
+    
   end
 
   def import
