@@ -5,11 +5,12 @@ class MP3Importer
 
   def initialize(path)
     @path = path
-    list_of_files = Dir["#{path}/**/*.mp3"]
+
   end
 
   def import(list)
-
+    list_of_files = Dir["#{this.path}/**/*.mp3"]
   end
+
 
 end
