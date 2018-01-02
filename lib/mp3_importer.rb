@@ -9,8 +9,12 @@ class MP3Importer
   end
 
   def files
-    list_of_files = Dir["#{@path}/**/*.mp3"]
-    #binding.pry
+    list_of_files_with_path = Dir["#{@path}/**/*.mp3"]
+    list_of_files = list_of_files_with_path.split("/")[3]
+  end
+
+  def import
+
   end
 
 
